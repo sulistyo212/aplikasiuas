@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.UTS_PRAK_PB">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/gsw"
+        android:label="PROJECT UAS"
+        android:roundIcon="@mipmap/gsw"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".coach"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".splashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".omari"
+            android:parentActivityName=".news"></activity>
+        <activity
+            android:name=".loon"
+            android:parentActivityName=".news" />
+        <activity
+            android:name=".eric"
+            android:parentActivityName=".news" />
+        <activity
+            android:name=".willie"
+            android:parentActivityName=".news" />
+        <activity
+            android:name=".russel"
+            android:parentActivityName=".news" />
+        <activity
+            android:name=".green"
+            android:parentActivityName=".news" />
+        <activity
+            android:name=".klay"
+            android:parentActivityName=".news" />
+        <activity
+            android:name=".steph"
+            android:parentActivityName=".news" />
+        <activity
+            android:name=".PlayerProfile"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".news"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".teamhistory"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".galeri"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".stadium"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>
